@@ -1,0 +1,466 @@
+html {
+  box-sizing: border-box;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  scroll-behavior: smooth;
+}
+
+
+:-webkit-scrollbar {
+  display: none;
+  overflow: hidden;
+}
+
+
+
+body{
+  background-color: #35263D;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+nav {
+  padding-top: 2%;
+  padding: 3% 7% 3% 7%;
+}
+
+a{
+  padding: 3%;
+  text-decoration: none;
+  color: white;
+}
+
+a:active{
+  color: white;
+  text-decoration: none;
+}
+
+a:link { 
+  text-decoration: none; 
+}
+
+
+a:visited { 
+  text-decoration: none; 
+}
+
+
+a:hover { 
+  text-decoration: none; 
+}
+
+
+p, ul{
+  color: white; 
+  font-weight: 425; 
+}
+
+
+h1,h2,h3,h4{
+  font-size: 45px;
+  text-align: center;
+  color: white;
+}
+
+button {
+  border: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 450;
+  padding: 1% 2% 1% 2%;
+  background-color: #DE741C;
+}
+
+form{
+  margin: 15% 5% 5% 5%;
+}
+
+#initial-container{
+  margin: 1%;
+}
+
+#initial {
+  stroke-dasharray:869;
+  stroke-dashoffset: 869.5;
+  animation: sign 2.5s ease;
+  animation-fill-mode: forwards;
+}
+
+
+#about-me-button{
+  width: 40vw;
+  margin-top: 10%;
+  padding: 1vw 2vw 1vw 2vw;
+}
+
+#mountain-icon{
+  position: fixed;
+  top: -100;
+  right: 0;
+  z-index: 10;
+}
+
+#resume-button {
+  width: 80%;
+  padding: 1%;
+  font-size: 32px;
+  letter-spacing: 1px;
+  margin: 5%;
+}
+
+#pfp{
+  margin: 5%;
+  width: 80%;
+  border-radius: 100%;
+  background-color: #DE741C;
+}
+
+#stack {
+  margin: 5% 0 5% 0;
+  width: 60%;
+}
+
+#stack-ul {
+  margin-right: 10%;
+}
+
+#stack-ul li{
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+#project-1{
+  background-image: url(../public/icons/pawsome.png);
+}
+
+#project-2{
+  background-image: url(../public/icons/NPS.png);
+  background-position: top;
+}
+
+#project-3 {
+
+  background-image: url(../public/icons/PWA.png);
+  background-position: left;
+}
+
+#project-4 {
+
+  background-image: url(../public/icons/quiz-app.png);
+  background-position: center;
+}
+
+#project-5 {
+  filter: o;
+  background-image: url(../public/icons/weather-app.png);
+  background-position: center;
+}
+
+#project-6 {
+
+  background-image: url(../public/icons/Social-media-backend.png);
+  background-position: right;
+}
+
+#learn-more{
+  background-color: #35263D;
+  width: 80%;
+  padding: 1%;
+  font-size: 32px;
+  letter-spacing: 1px;
+  margin: 3% 3% 6% 3%;
+}
+
+
+.contact-form{
+  display: flex;
+  flex-direction: column;
+  margin: 1% 0 1% 0;
+}
+.tech-section{
+  background-color: #DE741C ;
+  padding-top: 7%;
+}
+
+.subheading-larger{
+  margin: 5%;
+  font-size: 20px;
+}
+
+.projects-collection{
+  margin: 7%;
+  justify-content: center;
+  display: flex;
+  flex-wrap:wrap;
+}
+
+.project-card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  filter: grayscale(1);
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.project-card:hover{
+  filter: blur(0px);
+  z-index: 10;
+  animation-name: hover;
+  animation-fill-mode: forwards;
+  animation-duration: .1s;
+}
+
+.project-card:hover p{
+  padding: 1% 1% 1% 1% ;
+  background-color: #DE741C;
+  color: rgb(255, 255, 255);
+}
+
+.project-card p{
+  text-align: center;
+  color: rgba(0, 0, 0, 0);
+}
+
+.main-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40%;
+  margin-bottom: 40%;
+}
+
+.mainBanner {
+  width: 100vw;
+  background-image: url("../public/icons/mountains.jpg");
+  background-size: cover;
+}
+
+.subheading {
+  text-align: center;
+  margin-bottom: 1%;
+}
+
+.wave-container {
+  background: #EEE;
+}
+
+.wave-container > svg {
+  display: block;
+}
+
+.spacer {
+  aspect-ratio: 1440/320;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.wave-1 {
+  position:relative;
+  bottom: 0;
+  background-image: url("../public/icons/wave-1.svg");
+}
+.wave-2 {
+  position:relative;
+  bottom: 0;
+  background-image: url("../public/icons/wave-2.svg");
+}
+
+.about-container{
+  padding-top: 20%;
+  margin-bottom: 3%;
+  padding-bottom: 24%;
+  background-color: #35263D ;
+  width: 100%;
+}
+
+.projects-container{
+  display: flex;
+  flex-direction: column;
+  /* padding-top: 20%; */
+  margin: 0;
+  background-color: #35263D ;
+  width: 100%;
+}
+
+.tech-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1%;
+  width: 100%;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  background-color: #FEA837 ;
+  width: 100%;
+  height: 15vh;
+}
+
+.icon-container{
+  width: 65%;
+}
+
+.main-about-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-felid {
+  width: 80%;
+  margin-bottom: 5%;
+}
+
+.slide {
+  filter: brightness(60%);
+}
+
+.about-text-button{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tech-list{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+
+@keyframes hover{
+  0% {transform: scale(1);}
+  100% {transform: scale(1.1);}
+}
+
+@keyframes sign {
+  to {
+      stroke-dashoffset: 0;
+  }
+}
+
+@media screen and (min-width: 450px){
+
+
+  #pfp{
+      width: 350px;
+  }
+  #stack{
+      width: 350px;
+  }
+
+}
+
+@media screen and (min-width: 800px){
+  .main-text{
+      margin-top: 30%;
+  }
+
+  .project-card{
+      width: 350px;
+      height: 350px;
+  }
+  p{
+      font-size: 25px;
+  }
+  
+  
+  h1,h2,h3,h4{
+      font-size: 60px;
+  }
+
+  .about-container{
+      padding-top: 2%;
+  }
+
+  #resume-button {
+      width: 640px;
+  }
+
+  #learn-more {
+      width: 640px;
+  }
+
+}
+
+@media screen and (min-width: 1100px){
+  .main-text{
+      margin-top: 15%;
+  }
+}
+
+@media screen and (min-width: 1200px){
+  .main-text{
+      margin-top: 5%;
+  }
+  .about-container{
+      padding-top: 7%;
+      padding-bottom: 7%;
+  }
+
+  .about-container h2{
+      font-size: 65px;
+      padding-bottom: 7%;
+  }
+
+  .main-about-content{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+  }
+  .about-text-button{
+      width: 400px;
+      justify-content: center;
+      
+  }
+
+  .tech-container{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+  }
+
+  .tech-list{
+      width: 30%;
+  }
+  #resume-button {
+      width: 100%;
+  }
+
+  #learn-more{
+      width: 400px; 
+  }
+
+  #pfp{
+      width: 450px;
+  }
+  #about-me-button{
+      margin-top: 2%;
+  }
+
+  button{
+      font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 1400px){
+  .about-container h2{
+      padding-bottom: 3%;
+  }
+}
+
