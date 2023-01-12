@@ -1,3 +1,4 @@
+import WaveTwo from "./wave-2";
 function TechSection() {
     return (
       <>
@@ -17,7 +18,7 @@ function TechSection() {
           <button id="learn-more">learn More</button>
         </div>
       </div>
-      <div className="spacer wave-2"></div>
+      <WaveTwo />
     </section>
       </>
   
