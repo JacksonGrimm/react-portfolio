@@ -2,6 +2,7 @@ import "./App.css";
 import NavbarHome from "./components/navbarHome";
 import AboutSection from "./components/about";
 import TechSection from "./components/tech";
+import Footer from "./components/footer";
 function App() {
   return (
     <div>
@@ -66,6 +67,7 @@ function App() {
       </div>
       <AboutSection />
       <TechSection />
+      <Footer />
     </div>
   );
 }
