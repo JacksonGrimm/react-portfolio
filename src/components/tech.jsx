@@ -1,10 +1,12 @@
+import stack from "../icons/icons8-stack.svg"
+import WaveTwo from "./wave-2";
 
 const Tech = function(){
     return (
         <div>
         <h1>Technologies</h1>
         <div className="tech-container">
-            <img id="stack" src="./icons/icons8-stack.svg"></img>
+            <img id="stack" src={stack}></img>
             <div>
             <p>Proficient Frontend technologies,</p>
             <ul>
@@ -32,6 +34,7 @@ const Tech = function(){
             <a href="https://docs.google.com/document/d/122WeJX52DX4WA1Int9qcAPkL27nRxVZ6iBdOeXYPXQY/edit?usp=sharing" target="_blank"><button id="resume-button">resume</button></a>
             </div>
         </div>
+        <WaveTwo />
         </div>
     );
     }
