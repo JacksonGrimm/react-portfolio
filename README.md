@@ -4,7 +4,9 @@
 
 This is my personal portfolio page front-end built with react!
 
-## ScreenShots
+## ScreenShot
+
+![alt text](./screenShot/screenshot1.png)
 
 ## Link
 
