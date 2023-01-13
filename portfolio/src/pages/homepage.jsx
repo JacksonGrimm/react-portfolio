@@ -1,6 +1,6 @@
 import NavbarHome from "../components/navbarHome";
 import AboutSection from "../components/about";
-import TechSection from "../components/tech";
+import TechSection from "../components/techSection";
 
 
 function Homepage() {
