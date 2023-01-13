@@ -130,35 +130,35 @@ form{
 }
 
 #project-1{
-  background-image: url(../public/icons/pawsome.png);
+  background-image: url(./icons/pawsome.png);
 }
 
 #project-2{
-  background-image: url(../public/icons/NPS.png);
+  background-image: url(./icons/NPS.png);
   background-position: top;
 }
 
 #project-3 {
 
-  background-image: url(../public/icons/PWA.png);
+  background-image: url(./icons/PWA.png);
   background-position: left;
 }
 
 #project-4 {
 
-  background-image: url(../public/icons/quiz-app.png);
+  background-image: url(./icons/quiz-app.png);
   background-position: center;
 }
 
 #project-5 {
   filter: o;
-  background-image: url(../public/icons/weather-app.png);
+  background-image: url(./icons/weather-app.png);
   background-position: center;
 }
 
 #project-6 {
 
-  background-image: url(../public/icons/Social-media-backend.png);
+  background-image: url(./icons/Social-media-backend.png);
   background-position: right;
 }
 
@@ -264,12 +264,12 @@ form{
 .wave-1 {
   position:relative;
   bottom: 0;
-  background-image: url("../public/icons/wave-1.svg");
+  background-image: url("./icons/wave-1.svg");
 }
 .wave-2 {
   position:relative;
   bottom: 0;
-  background-image: url("../public/icons/wave-2.svg");
+  background-image: url("./icons/wave-2.svg");
 }
 
 .about-container{
