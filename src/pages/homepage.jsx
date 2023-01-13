@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 function Homepage() {
     return (
       <div>
-        <a href="/" id="mountain-icon">
+        <Link to={"/"}><a id="mountain-icon">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             xlink="http://www.w3.org/1999/xlink"
@@ -48,7 +48,7 @@ function Homepage() {
               </g>
             </g>
           </svg>
-        </a>
+        </a></Link>
         <div id="main" className="mainBanner"></div>
         <div id="main" className="mainBanner">
           <nav className="d-flex justify-content-around align-items-center">
