@@ -1,3 +1,5 @@
+import React from "react";
+
 import stack from "../icons/icons8-stack.svg"
 import WaveTwo from "./wave-2";
 

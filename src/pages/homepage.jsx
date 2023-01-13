@@ -1,3 +1,4 @@
+import React from "react";
 import NavbarHome from "../components/navbarHome";
 import AboutSection from "../components/about";
 import TechSection from "../components/techSection";

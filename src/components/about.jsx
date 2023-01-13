@@ -1,3 +1,5 @@
+import React from "react";
+
 import avatar from "../icons/MEMoji.PNG"
 function AboutSection() {
     return (

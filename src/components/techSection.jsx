@@ -1,3 +1,5 @@
+import React from "react";
+
 import WaveTwo from "./wave-2";
 import stack from "../icons/icons8-stack.svg"
 function TechSection() {

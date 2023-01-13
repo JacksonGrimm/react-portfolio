@@ -1,3 +1,5 @@
+import React from "react";
+
 import WaveTwo from "./wave-2"
 
 const ProjectSection = function(){
