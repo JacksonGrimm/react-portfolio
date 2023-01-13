@@ -236,7 +236,7 @@ form{
 
 .mainBanner {
   width: 100vw;
-  background-image: url("../public/icons/mountains.jpg");
+  background-image: url("./icons/mountains.jpg");
   background-size: cover;
 }
 
