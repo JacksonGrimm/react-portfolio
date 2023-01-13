@@ -4,7 +4,7 @@ import avatar from "../icons/MEMoji.PNG"
 function AboutSection() {
     return (
       <>
-         <section id="about" className="about-container">
+         <section id="about" name='example-destination' className="about-container">
       <h2>Hello!</h2>
       <div className="main-about-content">
         <img src={avatar} alt="" id="pfp" />
