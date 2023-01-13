@@ -15,7 +15,7 @@ function AboutSection() {
             you want to work on a project head to my contact page or click the
             icon in the footer!
           </p>
-          <Link to={"/tech"}><button id="resume-button">Resume</button></Link>
+          <button id="resume-button"><Link to={"/tech"}>resume</Link></button>
         </div>
       </div>
     </section>
