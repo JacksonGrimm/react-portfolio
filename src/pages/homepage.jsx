@@ -1,7 +1,7 @@
 import NavbarHome from "../components/navbarHome";
 import AboutSection from "../components/about";
 import TechSection from "../components/techSection";
-
+import { Link } from "react-router-dom";
 
 function Homepage() {
     return (
@@ -52,15 +52,15 @@ function Homepage() {
         <div id="main" className="mainBanner"></div>
         <div id="main" className="mainBanner">
           <nav className="d-flex justify-content-around align-items-center">
-            <a href="projects">
+            <Link to={"/projects"}><a>
               <p>Projects</p>
-            </a>
-            <a href="/tech">
+            </a></Link>
+            <Link to={"/tech"}><a>
               <p>Technologies</p>
-            </a>
-            <a href="/contact" className="ms-6">
-              <p>Contact</p>
-            </a>
+            </a></Link>
+            <Link to={"/contact"}><a className="ms-6">
+            <p>Contact</p>
+            </a></Link>
           </nav>
           <NavbarHome />
           <div className="spacer wave-1"></div>

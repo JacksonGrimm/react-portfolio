@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom"
 
 const Navbar = function() {
     return (
@@ -49,15 +49,18 @@ const Navbar = function() {
     <div id="main" className="mainBanner"></div>
     <div id="main" className="mainBanner">
       <nav className="d-flex justify-content-around align-items-center">
-        <a href="/projects">
-          <p>Projects</p>
-        </a>
-        <a href="/tech">
+      <Link to={"/projects"}><a>
+              <p>Projects</p>
+            </a></Link>
+            <Link to={"/tech"}><a>
           <p>Technologies</p>
         </a>
-        <a href="/contact" className="ms-6">
+        </Link>
+        <Link to={"/contact"}>
+        <a className="ms-6">
           <p>Contact</p>
         </a>
+        </Link>
       </nav>
       <div className="spacer wave-1"></div>
     </div>

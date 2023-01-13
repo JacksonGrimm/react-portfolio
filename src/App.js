@@ -4,13 +4,13 @@ import Projects from "./pages/projects";
 import Contact from "./pages/contact";
 import TechPage from "./pages/techPage";
 import Footer from "./components/footer";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
     <Router>
       <div>
-        <Routes>
+        <Routes basename="/">
           <Route path="/" element={<Homepage />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
