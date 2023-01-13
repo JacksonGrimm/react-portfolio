@@ -1,7 +1,9 @@
 import "./App.css";
 import Homepage from "./pages/homepage";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Projects from "./pages/projects";
 import Footer from "./components/footer";
+import WaveTwo from "./components/wave-2";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
@@ -9,6 +11,7 @@ function App() {
       <div>
         <Routes>
           <Route path="/" element={<Homepage />} />
+          <Route path="/projects" element={<Projects />} />
         </Routes>
         <Footer />
       </div>

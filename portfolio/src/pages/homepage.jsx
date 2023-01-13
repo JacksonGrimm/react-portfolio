@@ -1,13 +1,12 @@
 import NavbarHome from "../components/navbarHome";
 import AboutSection from "../components/about";
 import TechSection from "../components/tech";
-import Footer from "../components/footer";
 
 
 function Homepage() {
     return (
       <div>
-        <a href="#main" id="mountain-icon">
+        <a href="/" id="mountain-icon">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             xlink="http://www.w3.org/1999/xlink"
@@ -53,13 +52,13 @@ function Homepage() {
         <div id="main" className="mainBanner"></div>
         <div id="main" className="mainBanner">
           <nav className="d-flex justify-content-around align-items-center">
-            <a href="#projects">
+            <a href="projects">
               <p>Projects</p>
             </a>
-            <a href="#tech">
+            <a href="/tech">
               <p>Technologies</p>
             </a>
-            <a href="#contact" className="ms-6">
+            <a href="/contact" className="ms-6">
               <p>Contact</p>
             </a>
           </nav>
