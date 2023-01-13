@@ -1,24 +1,16 @@
 {
-  "files": {
-    "main.css": "/react-portfolio/static/css/main.7f8d15de.css",
-    "main.js": "/react-portfolio/static/js/main.012644f1.js",
-    "static/media/NPS.png": "/react-portfolio/static/media/NPS.65eb063307c38e104f6a.png",
-    "static/media/pawsome.png": "/react-portfolio/static/media/pawsome.0f88d3504015b7678a59.png",
-    "static/media/mountains.jpg": "/react-portfolio/static/media/mountains.dbfd282eed48eb24c889.jpg",
-    "static/media/Social-media-backend.png": "/react-portfolio/static/media/Social-media-backend.449ff33af0789bc3436c.png",
-    "static/media/quiz-app.png": "/react-portfolio/static/media/quiz-app.858b7e29f05968647b43.png",
-    "static/media/MEMoji.PNG": "/react-portfolio/static/media/MEMoji.eaf36b68ac7a9e3f6006.PNG",
-    "static/media/weather-app.png": "/react-portfolio/static/media/weather-app.692fa9d9c862c3957efb.png",
-    "static/media/PWA.png": "/react-portfolio/static/media/PWA.f9ceb174138ff64bae11.png",
-    "static/media/icons8-stack.svg": "/react-portfolio/static/media/icons8-stack.d330a4dc8b5770d596679edea2b52876.svg",
-    "index.html": "/react-portfolio/index.html",
-    "static/media/wave-2.svg": "/react-portfolio/static/media/wave-2.6fc3c067e7d7c41a1c50.svg",
-    "static/media/wave-1.svg": "/react-portfolio/static/media/wave-1.1420233f2b291ca47360.svg",
-    "main.7f8d15de.css.map": "/react-portfolio/static/css/main.7f8d15de.css.map",
-    "main.012644f1.js.map": "/react-portfolio/static/js/main.012644f1.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.7f8d15de.css",
-    "static/js/main.012644f1.js"
-  ]
+  "main.css": "/react-portfolio/static/css/main.669d097d.chunk.css",
+  "main.js": "/react-portfolio/static/js/main.0a95d6f7.chunk.js",
+  "main.js.map": "/react-portfolio/static/js/main.0a95d6f7.chunk.js.map",
+  "static/js/1.4c984d63.chunk.js": "/react-portfolio/static/js/1.4c984d63.chunk.js",
+  "static/js/1.4c984d63.chunk.js.map": "/react-portfolio/static/js/1.4c984d63.chunk.js.map",
+  "runtime~main.js": "/react-portfolio/static/js/runtime~main.f8926043.js",
+  "runtime~main.js.map": "/react-portfolio/static/js/runtime~main.f8926043.js.map",
+  "static/media/icons8-stack.svg": "/react-portfolio/static/media/icons8-stack.3fe8d0cb.svg",
+  "static/media/App.css": "/react-portfolio/static/media/NPS.17f8b1a8.png",
+  "static/media/MEMoji.PNG": "/react-portfolio/static/media/MEMoji.ecdc1125.PNG",
+  "static/css/main.669d097d.chunk.css.map": "/react-portfolio/static/css/main.669d097d.chunk.css.map",
+  "index.html": "/react-portfolio/index.html",
+  "precache-manifest.4b15f13ee91d77552ef15d6a3a70149e.js": "/react-portfolio/precache-manifest.4b15f13ee91d77552ef15d6a3a70149e.js",
+  "service-worker.js": "/react-portfolio/service-worker.js"
 }
