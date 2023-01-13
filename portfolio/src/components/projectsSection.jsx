@@ -10,7 +10,7 @@ const ProjectSection = function(){
                 <a href="https://github.com/AndyLaBorde/Pawsome" target="_blank"><p>Pawsome</p></a>
             </div>
             <div id="project-2" className="project-card">
-                <a href="https://github.com/https://github.com/Slimshady079/National-Parks-Search" target="_blank"><p>National Parks Search</p></a>
+                <a href="https://github.com/Slimshady079/National-Parks-Search" target="_blank"><p>National Parks Search</p></a>
             </div>
             <div id="project-3" className="project-card">
                 <a href="https://github.com/JacksonGrimm/Text-Editor-PWA" target="_blank"><p>Text Editor PWA</p></a>
