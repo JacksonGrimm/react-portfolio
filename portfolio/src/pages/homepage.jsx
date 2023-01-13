@@ -68,7 +68,6 @@ function Homepage() {
         </div>
         <AboutSection />
         <TechSection />
-        <Footer />
       </div>
     );
   }
