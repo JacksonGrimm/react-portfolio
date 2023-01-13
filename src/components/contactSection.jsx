@@ -25,7 +25,7 @@ const ContactSection = function(){
               autoComplete="off"
               className="whiteText"
               placeholder="Email"
-              type="text"
+              type="email"
               onChange={(event) => { setFormInfo({email: event.target.value})}}
             ></input>
             <input
