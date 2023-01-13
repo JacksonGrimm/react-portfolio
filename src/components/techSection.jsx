@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 import WaveTwo from "./wave-2";
 import stack from "../icons/icons8-stack.svg"
 function TechSection() {
@@ -18,7 +18,7 @@ function TechSection() {
             <li>React</li>
             <li>NodeJS</li>
           </ul>
-          <button id="learn-more">learn More</button>
+          <button id="learn-more"><Link to={"/tech"}>learn More</Link></button>
         </div>
       </div>
       <WaveTwo />
