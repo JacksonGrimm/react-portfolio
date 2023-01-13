@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "94c3a91b88d54134ae1a",
-    "url": "/react-portfolio/static/css/main.669d097d.chunk.css"
+    "revision": "ebece8f6f7709af70b15",
+    "url": "/react-portfolio/static/css/main.d6825fdb.chunk.css"
   },
   {
-    "revision": "94c3a91b88d54134ae1a",
-    "url": "/react-portfolio/static/js/main.94c3a91b.chunk.js"
+    "revision": "ebece8f6f7709af70b15",
+    "url": "/react-portfolio/static/js/main.ebece8f6.chunk.js"
   },
   {
     "revision": "0fbe73ed72f1311a4bcf",
@@ -24,16 +24,16 @@ self.__precacheManifest = [
     "url": "/react-portfolio/static/media/PWA.638e7af0.png"
   },
   {
+    "revision": "dd65b9e96def9b620a6234c818b52609",
+    "url": "/react-portfolio/static/media/Social-media-backend.dd65b9e9.png"
+  },
+  {
     "revision": "77f47cc08cf34f6fe271f95dbfee97d6",
     "url": "/react-portfolio/static/media/quiz-app.77f47cc0.png"
   },
   {
     "revision": "6df7ed0a9a8c13d751324e480ffbdb33",
     "url": "/react-portfolio/static/media/weather-app.6df7ed0a.png"
-  },
-  {
-    "revision": "dd65b9e96def9b620a6234c818b52609",
-    "url": "/react-portfolio/static/media/Social-media-backend.dd65b9e9.png"
   },
   {
     "revision": "5c333285cf6d6d525de0c21abf798cad",
@@ -60,7 +60,7 @@ self.__precacheManifest = [
     "url": "/react-portfolio/static/media/MEMoji.ecdc1125.PNG"
   },
   {
-    "revision": "380554d7d5145f0d6d56c5174681c7a8",
+    "revision": "7a90cd1b10045cbe09b1280920e18b7a",
     "url": "/react-portfolio/index.html"
   }
 ];
