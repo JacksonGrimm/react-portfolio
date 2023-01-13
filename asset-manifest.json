@@ -1,9 +1,9 @@
 {
   "main.css": "/react-portfolio/static/css/main.669d097d.chunk.css",
-  "main.js": "/react-portfolio/static/js/main.0a95d6f7.chunk.js",
-  "main.js.map": "/react-portfolio/static/js/main.0a95d6f7.chunk.js.map",
-  "static/js/1.4c984d63.chunk.js": "/react-portfolio/static/js/1.4c984d63.chunk.js",
-  "static/js/1.4c984d63.chunk.js.map": "/react-portfolio/static/js/1.4c984d63.chunk.js.map",
+  "main.js": "/react-portfolio/static/js/main.94c3a91b.chunk.js",
+  "main.js.map": "/react-portfolio/static/js/main.94c3a91b.chunk.js.map",
+  "static/js/1.0fbe73ed.chunk.js": "/react-portfolio/static/js/1.0fbe73ed.chunk.js",
+  "static/js/1.0fbe73ed.chunk.js.map": "/react-portfolio/static/js/1.0fbe73ed.chunk.js.map",
   "runtime~main.js": "/react-portfolio/static/js/runtime~main.f8926043.js",
   "runtime~main.js.map": "/react-portfolio/static/js/runtime~main.f8926043.js.map",
   "static/media/icons8-stack.svg": "/react-portfolio/static/media/icons8-stack.3fe8d0cb.svg",
@@ -11,6 +11,6 @@
   "static/media/MEMoji.PNG": "/react-portfolio/static/media/MEMoji.ecdc1125.PNG",
   "static/css/main.669d097d.chunk.css.map": "/react-portfolio/static/css/main.669d097d.chunk.css.map",
   "index.html": "/react-portfolio/index.html",
-  "precache-manifest.4b15f13ee91d77552ef15d6a3a70149e.js": "/react-portfolio/precache-manifest.4b15f13ee91d77552ef15d6a3a70149e.js",
+  "precache-manifest.4a3d3da84f8a9a29e83738472f51c455.js": "/react-portfolio/precache-manifest.4a3d3da84f8a9a29e83738472f51c455.js",
   "service-worker.js": "/react-portfolio/service-worker.js"
 }
