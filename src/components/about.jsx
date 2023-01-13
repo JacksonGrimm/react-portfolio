@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 import avatar from "../icons/MEMoji.PNG"
 function AboutSection() {
     return (
@@ -15,7 +15,7 @@ function AboutSection() {
             you want to work on a project head to my contact page or click the
             icon in the footer!
           </p>
-          <button id="resume-button">Resume</button>
+          <Link to={"/tech"}><button id="resume-button">Resume</button></Link>
         </div>
       </div>
     </section>
