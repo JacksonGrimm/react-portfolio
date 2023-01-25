@@ -5,7 +5,7 @@ function AboutSection() {
     return (
       <>
          <section id="about" name='example-destination' className="about-container">
-      <h2>Hello!</h2>
+      <h2 id="hello!">Hello!</h2>
       <div className="main-about-content">
         <img src={avatar} alt="" id="pfp" />
         <div className="about-text-button">
