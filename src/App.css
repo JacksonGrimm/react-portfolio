@@ -341,6 +341,11 @@ form{
   width: 100%;
 }
 
+.contact-icons{
+  display: flex;
+  justify-content: center;
+}
+
 
 @keyframes hover{
   0% {transform: scale(1);}
